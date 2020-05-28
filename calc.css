@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(to right, #00AAFF, #00FF6C)
+}
+.calc {
+  width: 400px;
+  background-color: black;
+  color: white;
+  }
+
+.screen {
+  color: white;
+  font-size: 40px;
+  font-family: "Arial" , Arial, monospace;
+  text-align: right;
+  padding: 20 px 5px;
+}
+section {
+  display: block;
+}
+
+.calc-button-row {
+  display: flex;
+  align-content: stretch;
+  justify-content: space-between;
+  margin-bottom: 0.5%;
+}
+
+.calc-button {
+  background-color: #00FFFF
+  color: black;
+  height: 100px;
+  width: 24.5%;
+  border: none;
+  border-radius: 0;
+  font-size: 40px;
+  cursor: pointer;
+  }
+  .calc-button:hover {
+    background-color: #ebebeb;
+  }
+  .calc-button:active{
+    background-color: #bbbcbe;
+  }
+
+.equal {
+  display: inline-block;
+  padding: 20px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px #999;
+}
+
+.equal:hover {background-color: #3e8e41}
+
+.equal:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.double {
+  width: 49.7%;
+}
+
+.triple {
+  width: 74.8%;
+}
+
+.calc-button:last-child{
+  background-color: #A9A9A9;
+  color: white;
+}
+.calc-button:last-child:hover{
+  background-color: #dfb07e;
+  }
+
+  .calc-button:last-child:active{
+    background-color: #dd8d37;
+  }
+
+button {
+-webkit-appearance: button;
+-webkit-writing-mode: horizontal -tb !important;
+text-rendering: auto;
+color: buttontext;
+letter-spacing: normal;
+word-spacing: normal;
+text-transform: none;
+text-indent: 0px;
+text-shadow: none;
+display: inline-block;
+text-align: center;
+align-items: flex-start;
+cursor: default;
+background-color: buttonface;
+box-sizing: border-box;
+margin: 0em;
+font:400 13.3333px Arial;
+padding: 1px 6px;
+border-width: 2px;
+border-style: outset;
+border-color: buttonface;
+border-image: initial;
+}
